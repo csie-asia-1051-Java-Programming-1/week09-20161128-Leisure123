@@ -16,7 +16,6 @@ public class ex01 {
 		Scanner scn = new Scanner(System.in);
 		Random rnd = new Random();
 		int data[] = new int [6];
-		int n = 0;
 		boolean check;
 		for(int i = 0 ; i < 6 ; i++){
 			check = true;
