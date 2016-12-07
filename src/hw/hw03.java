@@ -14,12 +14,7 @@ public class hw03 {
 		// TODO Auto-generated method stub
 		Scanner scn = new Scanner(System.in);
 		ArrayList <Student> studList = new ArrayList <Student>();
-		String name = scn.next();
-		String id = scn.next();
-		studList.add(new Student(name,id));
-		studList.get(1).showInfo();
-		studList.get(1).addCourse("computer","1050807");
-		studList.get(1).showInfo();
+		
 
 	}
 }
