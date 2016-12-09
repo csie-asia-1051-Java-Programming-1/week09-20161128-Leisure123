@@ -34,7 +34,7 @@ public class ex02 {
 				if(studList.get(0).fun() > avg){
 					studList.add(new Student1(id,name,c,e,m,avg));
 				}else{
-					studList.add(new Student1(id,name,c,e,m,avg));
+					studList.add(0,new Student1(id,name,c,e,m,avg));
 				}
 			}else{
 				boolean flag = true ;
