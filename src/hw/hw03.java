@@ -14,7 +14,23 @@ public class hw03 {
 		// TODO Auto-generated method stub
 		Scanner scn = new Scanner(System.in);
 		ArrayList <Student> studList = new ArrayList <Student>();
-		
+		boolean check = true;
+		while(check){
+			int sum = 0;
+			boolean a = true;
+			String name = scn.next();
+			String id = scn.next();
+			while(a){
+				String course = scn.next();
+				float score = scn.nextFloat();
+				sum++;
+				char b = scn.next().charAt(0);
+				if(b == 'n' || b == 'N'){
+					a = false;
+				}
+			}
+			
+		}
 
 	}
 }
